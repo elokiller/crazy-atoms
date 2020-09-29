@@ -1,0 +1,39 @@
+.wrap {
+  height: 72px;
+  background: #FFF;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  position: relative;
+  padding: 16px 16px 16px 72px;
+  font-size: 14px;
+}
+
+.avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alive {
+  background: linear-gradient(180deg, #FFB800 0%, #FFF7B0 100%);
+}
+
+.dead {
+  background: linear-gradient(180deg, #0D658A 0%, #B0FFB4 100%);
+}
+
+.new_life_atom {
+  background: linear-gradient(180deg, #AD00FF 0%, #FFB0E9 100%);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+}

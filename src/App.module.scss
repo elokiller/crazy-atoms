@@ -1,0 +1,33 @@
+.wrap {
+  padding: 16px 16px 70px 16px;
+}
+
+.title {
+  height: 56px;
+  font-size: 20px;
+  padding: 0 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background-color: #000;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    height: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+
+  }
+}

@@ -1,0 +1,5 @@
+export const ATOM_TYPES = {
+  ALIVE: 'ALIVE',
+  DEAD: 'DEAD',
+  NEW_LIFE_ATOM: 'NEW_LIFE_ATOM'
+}
